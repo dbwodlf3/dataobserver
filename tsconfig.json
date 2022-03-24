@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "target": "es6",
+        "module": "CommonJS",
+        "inlineSourceMap": true,
+        "rootDir": "./",
+        "removeComments": true,
+        "strict": true,
+        "baseUrl": "./src",
+        "outDir": "./dest",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "charset": "utf8",
+        "downlevelIteration": true,
+    },
+    "include":["./**/*.ts"],
+    "exclude": [
+        "test/**/*.ts",
+        "scripts/**/*.ts"
+    ]
+}
